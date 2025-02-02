@@ -4,6 +4,7 @@ import sqlite3
 import random
 import time
 from dotenv import load_dotenv
+import os
 
 # Создаем intents, которые разрешают боту работать с событиями пользователей
 intents = discord.Intents.default()
